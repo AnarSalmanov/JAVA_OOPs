@@ -13,7 +13,7 @@ public class Abstraction_intro {
 	 * 
 	 *  
 	 *                      HOW TO ACHIEVE ABSTRACTION ?
-	 *  There is 2 ways of achieving abstractio in java.
+	 *  There is 2 ways of achieving abstraction in java.
 	 *  by using :
 	 *  -> 1.Abstract classes
 	 *  - >2.Interfaces.

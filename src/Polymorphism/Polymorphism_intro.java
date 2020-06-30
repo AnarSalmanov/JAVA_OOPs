@@ -2,14 +2,15 @@ package Polymorphism;
 
 public class Polymorphism_intro {
 	
-	/**                      POLYMORPHYSM
-	 * Polymorphism occures only in Parent and Child class relationship.
+	/**                      POLYMORPHISM
+	 * Polymorphism occurs only in Parent and Child class relationship.
 	 * Child class extends to regular Parent class or Abstract Class or implements Interface.
-	 * In polymorphysm Parent class refers to Child class .
-	        Parent obj = new  Childclass() 
+	 * In polymorphism Parent class or Interface refers to Child class .
+	        Parent obj = new ChildClass()
+            Interface ref = ne ChildClass ();
 	        
 	        With obj:
-	        CAN access to Child class overridden(which exixt in Parent and Child both) methods
+	        CAN access to Child class overridden(which exist in Parent and Child both) methods
 	        CAN ACCESS Parent class any method.
 	        
 	 *   Class Grandpa  
@@ -23,12 +24,12 @@ public class Polymorphism_intro {
 	 *       method4();
 	 *       
 	 *   Grandpa grandpa = new Dad();
-	 *   grand1.method1();        -->  accessing Dad class overrridden methds
+	 *   grand1.method1();        -->  accessing Dad class overridden methods
 	 *   grand1.method3();        -->  accessing own class method
 	 *                                
 	 *       
 	 *   Grandpa grand = new Son();
-	 *   grand.method1();        -->  accessing Child class overrridden methds
+	 *   grand.method1();        -->  accessing Child class overridden methods
 	 *   grand.method3();        -->  accessing own class method
 	 *                                     
 	 *  Reference of Interface can't refer another interface, but can refer to regular class.
@@ -40,13 +41,14 @@ public class Polymorphism_intro {
 	 *  
 	 *  
 	 *  WebDriver driver = new ChromeDriver();
-	 *  WebDriver    -->  is reference type (Interface)
+	 *  WebDriver    -->  is Interface (Interface)
+     *  driver  --> reference of Interface refers to Child class
 	 *  ChromeDriver -->  is Child class(Also ChromeDriver is class and implements to WebDriver interface)
 	 *  
 	 *  
 	 *  
-	 *                          2 TYPES POLYMORPHYSM
-	 *        1. Compile time Polymerphism -- > Method OverLoading
+	 *                          2 TYPES POLYMORPHISM
+	 *        1. Compile time Polymorphism -- > Method OverLoading
 	 *        2. Runtime Polymorphism ---> Method Overriding
 	 *        
 	 *  

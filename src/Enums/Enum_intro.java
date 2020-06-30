@@ -11,8 +11,8 @@ enum Colors {
 public class Enum_intro {
 	/**
 	 * 
-	 * Enum is a collection of constants. Enum can be inside and outside of class
-	 * Enums does not have types, type values  in Uoeercase without showing any
+	 * Enum is a collection of constants. Enum can be inside or outside of class
+	 * Enums does not have types, type values in Uppercase without showing any
 	 * type Enum name (as class name) should be in uppercase Constant are called as
 	 * a static methods with EnumName.value We can declare only constant values in
 	 * enum. This is a good practice to store constants there.
@@ -24,7 +24,7 @@ public class Enum_intro {
             }
 	 * 
 	 *  * Initialization is happening as below:
-	 *  Such as passing value to the object of enum by calling value with enaum name.
+	 *  Such as passing value to the object of enum by calling value with enum name.
 	 *  
 	 * Syntax:
 	 *   
@@ -36,7 +36,7 @@ public class Enum_intro {
 
 		System.out.println(Levels.LOW); // Will print LOW
 
-		// initilize the value this way
+		// initialize the value this way
 		Levels levels = Levels.MEDIUM;
 		switch (levels) {
 		case LOW:
@@ -53,7 +53,7 @@ public class Enum_intro {
 			break;
 		}
 
-		// initilize the value this way to object.
+		// initialize the value this way to object.
 		Colors colors = Colors.BLACK;
 		if (colors == Colors.WHITE) {
 			System.out.println("Color is white");
