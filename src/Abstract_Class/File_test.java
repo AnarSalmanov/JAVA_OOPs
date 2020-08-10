@@ -4,7 +4,7 @@ public class File_test {
 	
 	/**
 	 * NOTE :WE CANNOT CREATE AN OBJECT OF ABSTRACT CLASS, 
-	 * From 3rd class (not child) - WE MUST USE CHILD CLASS OBJECT TO ACHIEVE THE ABSTRACT CLASS METHODS and class variables.
+	 * From 3rd class (not child) - WE MUST USE CHILD CLASS OBJECT TO ACHIEVE THE ABSTRACT CLASS non static METHODS and class variables.
 	 * If abstract class has static members we can achieve them from 3rd class by className.staticMember
 	 */
 

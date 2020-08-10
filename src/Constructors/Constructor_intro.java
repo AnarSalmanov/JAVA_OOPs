@@ -7,16 +7,16 @@ public class Constructor_intro {
 	 * Constructors can be with and without parameters.    example --> 2
 	 * In programming constructor used for set Class Variables inside constructors signature and this keyword! example-->2
 	 * Constructor is a another version of Setter can only set, the advantage is
-	   we dont need to create extra Setter method.
+	   we don't need to create extra Setter method.
 	 * Constructor runs when we create an object of class, if constructor not created in class
 	   then non-parametrized constructor runs implicitly.
 	   If there is in class already parametrized constructor then we have to create an non-parametrized
 	   constructor as well
-	 * Constuctor can have print statement inside it, can have initilizing value to global variables in it;
+	 * Constructor can have print statement inside it, can have initializing value to global variables in it;
 	    when object of class is created, constructor will run and statement will be executed.
 	   
-	  Note:In body of Constructor we can initilize a value to global variables such as setter method, but
-	  even after that if we dont have a getter method we cannot access to private class variable.
+	  Note:In body of Constructor we can initialize a value to global variables such as setter method, but
+	  even after that if we don't have a getter method we cannot access to private class variable.
 	    Constructor is an another shortcut version of Setter method.
 	    
 	 *  Constructor can be private , the purpose is to make unavailable to create an object of that class.

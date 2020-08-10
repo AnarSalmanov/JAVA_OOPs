@@ -3,9 +3,9 @@ package Class_Object;
 public class Etsy {
 
 	/**
-	 * Create 2 object of this class, encapsulate the variables and acces from
-	 * EtcyAccounts class with Getter and Setter methods Create one more Setter
-	 * method with this keyord, create 3rd objet use with this keyword Setter
+	 * Create 2 object of this class, encapsulate the variables and access from
+	 * EtsyAccounts class with Getter and Setter methods Create one more Setter
+	 * method with this keyword, create 3rd objet use with this keyword Setter
 	 */
 
 	private String email;
@@ -18,7 +18,7 @@ public class Etsy {
 		if (passw.length() >= 6) {
 			password = passw;
 		} else {
-			System.out.println("password length is less than 6 charachters");
+			System.out.println("password length is less than 6 characters");
 		}
 	}
 

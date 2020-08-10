@@ -12,13 +12,13 @@ public class AbstractClass_intro {
      *  that ,Child regular class will override (implement) Abstract class's all unimplemented (abstract)
      *  methods.Always regular class is child of abstract class.
      *  MUST be used Child class's object to access Abstract class's concrete methods and class variables from 3rd class.
-     *  If there is multilevel inheritance   c --> b--> Abstract class in this case
+     *  If there is multilevel inheritance   c extends b extends Abstract class in this case.
      *  1.b will override Abstract class's abstract method (
      *  2.c will override Abstract class's abstract method as well despite c class does not extends to Abstract class direct,
      *  but extends to sub class of Abstract class.
      *
      *  Abstract class can have other abstract sub classes as well.Sub abstract class also should use
-     *  extends keyword to acquire Parent abstract class's property.
+     *  extends keyword to inherit Parent abstract class's property.
      *  Any class which extends to the Sub abstract class,
      *  it will override both(parent and child) abstract classes all abstract methods.
      *  Abstract class can have instance and static variables with all kind access modifiers.
@@ -37,10 +37,10 @@ public class AbstractClass_intro {
 
 	 * Abstract method informs the feature/behaviour in methodName but we don't see the implementation.
 	 * ABSTRACT METHODS CAN'T BE ADDED TO NORMAL CLASSES.
-	 * If Abstract class has concrete static method, from 3ed class we can access by ClassName.method().
+	 * If Abstract class has regular static method, from 3ed class we can access by ClassName.method().
 
 	                            VARIABLES
-	 *  Abstract class can have instance and static variables.
+	 *  Abstract class can have instance and static and final variables.
 	 *  Variables can be any access modifier.
      */
 

@@ -8,7 +8,7 @@ public class Exceptions_intro {
 	 * Could be bug in the code, wrong input , network issue or tool working logic. Due to this , every
 	 * programming language provides a way to handle errors/exceptions. Each error/exception is an Object too. 
 	 * 
-	 *                What is handlig of Exceptions ?  - TRY/CATCH
+	 *                What is handling of Exceptions ?  - TRY/CATCH
 	 * If you have 10 line codes and you expect to run them properly, but if the code throws an
 	 * exception then the code will not run till the end will stop there. But we
 	 * have to handle the exception, to put our code inside try/catch block,
@@ -16,16 +16,16 @@ public class Exceptions_intro {
 	 * If your code is ok and not throwing an exception, then catch block will not be executed.
 	 * 
 	 * 
-	 * Suntax:
+	 * Syntax:
 	 * 
 	 * try {
 	 *      // your codes here 
 	 *  } catch(Exception e) {
 	 * 			e.printStackTrace();
-	 *    // Tell java what to do if occures any exception in the code which exists in try block
+	 *    // Tell java what to do if occurs any exception in the code which exists in try block
 	 *  }
 	 * 
-	 * If no any unexpexted exception happens, then the code inside catch block will not run.
+	 * If no any unexpected exception happens, then the code inside catch block will not run.
 	 * If the program fails in any line, then code is not passing to next line, catch block
 	 * will catch the exception(failure reason) and directly executes inside the catch block;
 	 * 
@@ -46,7 +46,7 @@ public class Exceptions_intro {
 	 * 
 	 * 
 	 *                    			e.printStackTrace();
-     * Inside catch block we catch the Exception and print in console but it will not stop our propgram,
+     * Inside catch block we catch the Exception and print in console but it will not stop our program,
      * just informs in console what problems happened during the code runs.We just print the 
      * exception and keep continue our test.
 	 * 
@@ -66,7 +66,7 @@ public class Exceptions_intro {
 	 * 			e.getMessage();
 	 *       }                     
 	 *                              
-	 *   In catch block inside parentises we can mention eather specific ecxeption or Parent Exception classes suc as 
+	 *   In catch block inside parentheses we can mention either specific exception or Parent Exception classes such as
 	 *   Exception, Throwable class)                          
 	 *                              
 	 *                               FINALLY BLOCK

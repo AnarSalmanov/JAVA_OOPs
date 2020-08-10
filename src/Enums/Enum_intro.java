@@ -1,13 +1,5 @@
 package Enums;
 
-enum Levels {
-	LOW, MEDIUM, HIGH; // name of the values
-}
-
-enum Colors {
-	RED, BLACK, WHITE;
-}
-
 public class Enum_intro {
 	/**
 	 * 
@@ -31,42 +23,6 @@ public class Enum_intro {
 	 *     Levels levels = Levels.MEDIUM;
 	 */
 
-	public static void main(String[] args) {
-		getRed();
 
-		System.out.println(Levels.LOW); // Will print LOW
-
-		// initialize the value this way
-		Levels levels = Levels.MEDIUM;
-		switch (levels) {
-		case LOW:
-			System.out.println("Level is " + Levels.LOW);
-			break;
-		case MEDIUM:
-			System.out.println("Level is " + Levels.MEDIUM); // Level is MEDIUM
-			break;
-		case HIGH:
-			System.out.println("Level is " + Levels.HIGH);
-			break;
-		default:
-			System.out.println("level not declared");
-			break;
-		}
-
-		// initialize the value this way to object.
-		Colors colors = Colors.BLACK;
-		if (colors == Colors.WHITE) {
-			System.out.println("Color is white");
-		} else if (colors == Colors.BLACK) {
-			System.out.println("Color is black"); // Color is black
-		} else {
-			System.out.println("Color is Red");
-		}
-
-	}
-
-	public static void getRed() {
-		System.out.println("Got " + Colors.RED); // Got RED
-	}
 
 }

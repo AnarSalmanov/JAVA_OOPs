@@ -1,7 +1,9 @@
 package Interfaces;
 
 public class Plane implements Flyable_interface, Moveable_interface {
-
+    public static void main(String[] args) {
+        Moveable_interface.walk();
+    }
 	
 	// Overriding 1st interface's abstract methods
 	@Override

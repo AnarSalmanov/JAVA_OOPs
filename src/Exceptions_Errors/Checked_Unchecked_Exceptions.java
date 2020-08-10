@@ -9,11 +9,12 @@ public class Checked_Unchecked_Exceptions {
 	   * This is a kind of exception we must to handle in order to code compile, otherwise the code will not compile.
 	   * This exception identified by compiler.
 	   * The compiler will demand in method signature include the throws Exception.
-	   * Java knows this code may fail that is why demands the just in case againnst possible treat.
-	   * Checked exceptions can be handled with try/catch as well, in catch block inside the paretises
+	   * Java knows this code may fail that is why demands the just in case against possible treat.
+	   * Checked exceptions can be handled with try/catch as well, in catch block inside the parentheses
 	   * we can include the Exception name.
 	   * 
-	   * ex: IOException, SQLException, FileNotFoundException , InterruptedExeption
+	   * ex: IOException, SQLException, FileNotFoundException , InterruptedException, MalformedException, ClassNotFoundException
+       * AWTException
 	   * for example;
 	   * --> public FileInputStream getFileInputStream() throws FileNotFoundException{
 	   * 

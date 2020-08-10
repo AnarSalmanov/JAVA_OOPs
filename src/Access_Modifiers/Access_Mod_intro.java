@@ -3,13 +3,13 @@ package Access_Modifiers;
 public class Access_Mod_intro {
 /**
  
- * public    -   visible from anywhere within project
+ * public    -   visible(accessible) from anywhere within project
  * 
- * private   -  visible only within project, even not visibe from child class.
+ * private   -  visible(accessible) only within project, even not visible from child class.
  * 
- * non-modifier  -  visible only within same package.
+ * non-modifier  -  visible(accessible) only within same package.
  * 
- * protected  -  visible within same package and outside of package only through inheritance.
+ * protected  -  visible within same package and from another packages in project only through inheritance.
  
  */
 	
