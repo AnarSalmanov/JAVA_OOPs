@@ -25,7 +25,7 @@ public class Constructor_intro {
 	                                 CAN'T BE 
 	 *  Constructors cannot be static and final. 
 	 *  Constructor cannot be inherited.
-	 *  Constructor cannot be overriden, but can be overloaded.
+	 *  Constructor cannot be overridden, but can be overloaded.
 	 */
 	
     private String name;
@@ -38,9 +38,9 @@ public class Constructor_intro {
 	
 	// example 1
 	public  Constructor_intro() {
-		 name ="Nazakat";
-		 age= 20;
-		 job="engineer";
+		 this.name ="Nazakat";
+		 this.age= 20;
+		 this.job="engineer";
 		System.out.println("This is non-parametrized constructor");
 	}
 	

@@ -12,7 +12,8 @@ public class Accessing_Class {
         String myName = hdr.getName();
         System.out.println("My name is " + myName + " I am " + myAge);
         hdr.myData();
-
+        hdr.setJob("engineer+");
+        System.out.println(hdr.getJob());
         //REASSIGNING VALUE VIA SETTER METHOD AND CALLING METHOD AGAIN
         hdr.setAll("Lotu", 55, "engineer");
         hdr.myData();

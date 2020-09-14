@@ -1,6 +1,6 @@
 package Abstract_Class;
 
-public class AbstractClass_intro {
+public class   AbstractClass_intro {
     /*
      *                       ABSTRACT CLASS
      *  Using "abstract" keyword to create an abstract class.

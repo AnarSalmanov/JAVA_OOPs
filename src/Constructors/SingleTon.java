@@ -2,14 +2,13 @@ package Constructors;
 
 public class SingleTon {
 
-    public static SingleTon singleTon;
-
+//const
     private SingleTon() {
-        System.out.println("This is a singleton class constructor");
+        System.out.println("This is a singleton class private constructor");
     }
 
     public static SingleTon getObject() {
-        return singleTon = new SingleTon();
+        return new SingleTon();
     }
 
     public void walk() {

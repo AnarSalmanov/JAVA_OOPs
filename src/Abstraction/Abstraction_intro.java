@@ -8,9 +8,10 @@ public class Abstraction_intro {
 	 * 
 	 
                            WHY WE USE ABSTRACTION ?
-	 * In programming when we do abstraction, then we create abstract classes and methods that only shows the feature, 
-	 * but we don't show the implementation details.
-     * So those method we create as abstract methods and override them from child class. And at the runtime we hide
+	 * In programming when we do abstraction, then we create abstract classes and methods
+     * that only shows the feature but we don't show the implementation details.
+     * So those method we create as abstract methods and override them from child class.
+     * And at the runtime we hide
      * the implementation details.
 	 * 
 	 *  
@@ -26,17 +27,20 @@ public class Abstraction_intro {
 	 *  }
 	 *  We cannot create an object of abstract class. !
 	 *  Abstract class has both abstract method and concrete methods. Or it may or may not have abstract methods.
-	 *  Regular class extends to abstract class,once it extends then regular class makes contract with abstract class
-	 *  that ,Child regular class will override (implement) Abstract class's all unimplemented (abstract)
-	 *  methods.Always regular class is child of abstract class.
-	 *  MUST be used Child class's object to access Abstract class's non static methods and instance variables from 3rd class.
-     *  Using abstract class name we can access to Static class variables and static methods. ClassName.variable and ClassName.method
+	 *  Regular class extends to abstract class,once it extends then regular class makes contract
+     *  with abstract class that ,Child regular class will override (implement)
+     *  Abstract class's all unimplemented (abstract) methods.
+     *  Always regular class is child of abstract class.
+	 *  MUST be used Child class's object to access Abstract class's non static methods and instance
+     *  variables from 3rd class.
+     *  Using abstract class name we can access to Static class variables and static methods.
+     *  ClassName.variable and ClassName.method
 
 	 *  
 	 *  If there is multilevel inheritance   c-> extends b-> extends Abstract class in this case,
 	 *  1.b will override Abstract class's abstract method (
-	 *  2.c will override Abstract class's abstract method as well despite c class does not extends to Abstract class direct,
-	 *  but extends to sub class of Abstract class.
+	 *  2.c will override Abstract class's abstract method as well despite c class does not
+     *  extends to Abstract class direct, but extends to sub class of Abstract class.
 	 *  
 	 *  Abstract class can have other abstract sub classes as well.Sub abstract class also should use
 	 *  extends keyword to inherit Parent abstract class's property.

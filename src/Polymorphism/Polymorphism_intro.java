@@ -5,9 +5,9 @@ public class Polymorphism_intro {
 	/**                      POLYMORPHISM
 	 * Polymorphism occurs only in Parent and Child class relationship.
 	 * Child class extends to regular Parent class or Abstract Class or implements Interface.
-	 * In polymorphism Parent class or Interface refers to Child class .
+	 * In polymorphism Parent class or Interface reference refers to Child class .
 	        Parent obj = new ChildClass()
-            Interface ref = ne ChildClass ();
+            Interface ref = new ChildClass ();
 	        
 	        With obj:
 	        CAN access to Child class overridden(which exist in Parent and Child both) methods
@@ -33,7 +33,7 @@ public class Polymorphism_intro {
 	 *   grand.method3();        -->  accessing own class method
 	 *                                     
 	 *  Reference of Interface can't refer another interface, but can refer to regular class.
-	 *  All classes which refers Abstract class or Interface are extends or implements to Parent abstrat class or interface.
+	 *  All classes which refers Abstract class or Interface are extends or implements to Parent abstract class or interface.
 	 *  Then using animal object we can invoke all common methods (which exists in both classes) and the methods which exist in 
 	 *  Parent class itself class. See grandpa class example.
 	 *  To invoke the methods which exists only in Child class, we need to create an object of Child class and

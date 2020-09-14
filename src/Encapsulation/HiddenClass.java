@@ -2,11 +2,11 @@ package Encapsulation;
 
 public class HiddenClass {
 
-
     private String job;
     private String fullName;
     private int age;
 
+    //setter for all variables
     public void setAll(String name, int myAge, String myJob) {
         fullName = name;
         age = myAge;
