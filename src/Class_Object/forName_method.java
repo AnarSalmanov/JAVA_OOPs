@@ -7,7 +7,7 @@ public class forName_method {
      */
 
     public static void main(String[] args) throws ClassNotFoundException {
-        Class.forName("Class_Object.Employee"); // output:This is static block of Employee class
+        Class.forName("Class_Object.Phone"); // output:This is static block of Phone class
 
     }
 
