@@ -5,8 +5,8 @@ public class ThrowsVsThrow {
     /** ---------------------- throws vs throw -----------------------------
      * Used in method declaration part to declare that,
      * the method may throw some exception.Throws keyword used in method signature
-     * to handle checked exceptions in method. We usually follow the compiler's
-     * suggestion to handle checked exception. If we call that method which has
+     * to handle Exceptions_Errors.checked exceptions in method. We usually follow the compiler's
+     * suggestion to handle Exceptions_Errors.checked exception. If we call that method which has
      * throws keyword and exception name , then we have to put in same throws
      * ExceptionName signature in caller method .
      *
