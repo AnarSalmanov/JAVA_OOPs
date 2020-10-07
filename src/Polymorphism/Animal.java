@@ -1,26 +1,16 @@
 package Polymorphism;
 
-public class Animal implements Pet{
+import Overriding.Dog;
 
-	
-	
-	
-	public void makeNoise () {
-		System.out.println("Animal is making noise");
-	}
-	
-	
-	
-	public static void main(String[] args) {
-		
-		Animal d = new Dog();
-		d.makeNoise();
-		Animal c = new Cat();
-		c.makeNoise();
-		Animal h = new Horse();
-		h.makeNoise();
-		
-			
-	}
+public class Animal {
+
+    public void animalMethod() {
+        System.out.println("This only animal");
+    }
+
+    public void makeNoise() {
+        System.out.println("Animal is making noise");
+    }
+
 
 }
